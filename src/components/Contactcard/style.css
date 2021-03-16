@@ -1,0 +1,12 @@
+.Cardname{
+    border-radius:10px;
+    background-image: linear-gradient(to bottom, #ff00ff 0%, #cc33ff 100%);
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    width:20%;
+    display: inline-block;
+    align-items: center;
+    padding: 1.5%;
+    margin: 1%;
+}

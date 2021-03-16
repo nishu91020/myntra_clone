@@ -19,8 +19,8 @@ const Navbar=()=>{
             <li ><NavLink to="/"><img src={profile} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
             <li><NavLink to="/"><img src={heart} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
             <li><NavLink to="/"><img src={bag} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
-            <li><NavLink to="/"><img src={approval} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
-            <li><NavLink to="/"><img src={recommend} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
+            <li><NavLink to="/AskApproval"><img src={approval} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
+            <li><NavLink to="/Apprec"><img src={recommend} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
         </ul>
     </div>
         );

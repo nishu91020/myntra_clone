@@ -2,7 +2,10 @@
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   color: #505050;
-  margin-top: 5%;
-  margin-left: 5%;
+  margin-top: 8%;
+  margin-left: 2%;
   font-size: 180%;
+}
+.brand{
+  margin-top: 2%;
 }
