@@ -5,6 +5,8 @@ import heart from '../../images/heart.png';
 import bag from '../../images/bag.png';
 import recommend from '../../images/recommended.png';
 import approval from '../../images/approval.png';
+import signout from '../../images/logout.png';
+import firebase from 'firebase';
 import './style.css';
 const Navbar=()=>{
     return(
@@ -15,12 +17,13 @@ const Navbar=()=>{
             <li><NavLink to="/">KIDS</NavLink></li>
             <li><NavLink to="/">LIVING &amp; HOME</NavLink></li>
             <li><NavLink to="/">OFFERS</NavLink></li>
-            <input   style={{height:'30px',textAlign:'center',borderRadius:'5px',marginLeft:'35%',border:'transparent',background:'#C0C0C0'}} type="text" placeholder="search"/>
+            <input   style={{height:'30px',textAlign:'center',borderRadius:'5px',marginLeft:'28%',border:'transparent',background:'#C0C0C0'}} type="text" placeholder="search"/>
             <li ><NavLink to="/"><img src={profile} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
             <li><NavLink to="/"><img src={heart} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
             <li><NavLink to="/"><img src={bag} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
             <li><NavLink to="/AskApproval"><img src={approval} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
             <li><NavLink to="/Apprec"><img src={recommend} style={{width:'1.5%',height:'1.5%'}}/></NavLink></li>
+            <li><img src={signout} style={{width:'1.5%',height:'1.5%',cursor:'pointer'}} onClick={() => firebase.auth().signOut()}/></li>
         </ul>
     </div>
         );
