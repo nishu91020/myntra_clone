@@ -1,0 +1,22 @@
+.button{
+    width:10%;
+}
+.footer{
+    margin-bottom: -2%;
+    margin-top: 5%;
+    padding:2%;
+    height:30vh;
+    background: #dcdcdc;
+    display: flex;
+    color: #696969;
+}
+.link{
+    
+    width:20%;
+}
+.touch{
+    width:100%;
+}
+.trademark{
+    width:20%;
+}

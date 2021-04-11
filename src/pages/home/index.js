@@ -30,7 +30,7 @@ import personal from '../../images/personal-care.webp';
 import Bigcard from '../../components/bigcard';
 import Navbar from '../../components/navbar';
 import Deals from '../../components/deals';
-
+import Footer from '../../components/footer';
 const Home=()=>{
   const breakPoints=[
     {width:1,itemToShow:1},
@@ -53,7 +53,9 @@ const Home=()=>{
       };
       return (
         <div className="container">
+          <div className="sticky">
           <Navbar/>
+          </div>
           <Slider {...settings} breakPoints={breakPoints}>
               <Bigcard image={mamaearth}/>
               <Bigcard image={roadster}/>
@@ -86,7 +88,7 @@ const Home=()=>{
             <Deals image={w}/>
           </div>
           </div>
-          
+          <Footer/>
         </div>
       );
 }

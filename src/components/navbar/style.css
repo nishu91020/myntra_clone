@@ -2,6 +2,9 @@ ul{
     list-style-type: none;
    
 }
+.sticky{
+    position: fixed;
+}
 .navbar ul li{
     display: inline;
     justify-content:space-between;
